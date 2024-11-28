@@ -92,7 +92,7 @@ function App() {
   }
 
   return (
-    <div className="ml-2 mt-2 h-full w-full">
+    <div className="h-full w-svw">
       {contextHolder}
       <Flex gap="middle" vertical justify="flex-start">
         <Flex gap="middle" vertical>

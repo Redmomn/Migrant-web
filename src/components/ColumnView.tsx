@@ -13,7 +13,7 @@ const ColumnView: React.FC<ColumnViewProps> = ({
   const rightScrollbarsRef = useRef(null)
 
   return (
-    <>
+    <div className='w-svw'>
       <div className="float-left w-[49%] text-left">
         <Scrollbars style={{ height: '90vh' }} ref={leftScrollbarsRef}>
           <List
@@ -43,7 +43,7 @@ const ColumnView: React.FC<ColumnViewProps> = ({
           />
         </Scrollbars>
       </div>
-    </>
+    </div>
   )
 }
 
